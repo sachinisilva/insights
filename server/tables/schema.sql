@@ -1,0 +1,6 @@
+CREATE TABLE insights (
+    id INTEGER PRIMARY KEY ASC AUTOINCREMENT NOT NULL,
+    brand INTEGER NOT NULL,
+    createdAt TEXT NOT NULL,
+    text TEXT NOT NULL
+  )
